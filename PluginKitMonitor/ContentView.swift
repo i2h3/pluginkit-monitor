@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  PluginKitMonitor
-//
-//  Created by Iva Horn on 27.02.26.
-//
-
 import SwiftUI
 
 /// The main view displaying a searchable, sortable table of all plug-ins

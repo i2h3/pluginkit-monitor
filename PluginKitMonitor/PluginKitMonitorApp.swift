@@ -1,10 +1,3 @@
-//
-//  PluginKitMonitorApp.swift
-//  PluginKitMonitor
-//
-//  Created by Iva Horn on 27.02.26.
-//
-
 import SwiftUI
 
 /// The application entry point for PluginKit Monitor.

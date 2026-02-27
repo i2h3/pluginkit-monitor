@@ -1,10 +1,3 @@
-//
-//  PluginKitMonitorTests.swift
-//  PluginKitMonitorTests
-//
-//  Created by Iva Horn on 27.02.26.
-//
-
 import Testing
 @testable import PluginKitMonitor
 
