@@ -27,7 +27,9 @@
 		AAEF4E082F51F8B700323B0C /* PluginKitMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluginKitMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEF4E152F51F8B800323B0C /* PluginKitMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginKitMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEF4E1F2F51F8B800323B0C /* PluginKitMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginKitMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAEF4E4A2F5225E000323B0C /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGENTS.md; sourceTree = "<group>"; };
+		AAEF4E4A2F5225E000323B0C /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENTS.md; sourceTree = "<group>"; };
+		AAEF4E752F522B6000323B0C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AAEF4E762F522B6000323B0C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -77,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				AAEF4E4A2F5225E000323B0C /* AGENTS.md */,
+				AAEF4E752F522B6000323B0C /* LICENSE */,
+				AAEF4E762F522B6000323B0C /* README.md */,
 				AAEF4E0A2F51F8B700323B0C /* PluginKitMonitor */,
 				AAEF4E182F51F8B800323B0C /* PluginKitMonitorTests */,
 				AAEF4E222F51F8B800323B0C /* PluginKitMonitorUITests */,
