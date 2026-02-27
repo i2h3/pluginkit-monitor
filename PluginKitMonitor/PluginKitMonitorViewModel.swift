@@ -59,16 +59,12 @@ final class PluginKitMonitorViewModel: ObservableObject {
 
     /// Fetches the latest `pluginkit` output and replaces ``plugins``.
     private func refresh() {
-        Task.detached {
-            let fetched = PluginKitParser.runPluginKit()
+        Task {
+            let fetched = await Task.detached {
+                PluginKitParser.runPluginKit()
+            }.value
 
-            Task { @MainActor [weak self] in
-                guard let self = self else {
-                    return
-                }
-
-                self.plugins = fetched.sorted(using: self.sortOrder)
-            }
+            plugins = fetched.sorted(using: sortOrder)
         }
     }
 
