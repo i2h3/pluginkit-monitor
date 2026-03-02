@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		AAEF4E162F51F8B800323B0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AAEF4E002F51F8B700323B0C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AAEF4E072F51F8B700323B0C;
-			remoteInfo = PluginKitMonitor;
-		};
-		AAEF4E202F51F8B800323B0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AAEF4E002F51F8B700323B0C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AAEF4E072F51F8B700323B0C;
-			remoteInfo = PluginKitMonitor;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		AAEF4E082F51F8B700323B0C /* PluginKitMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluginKitMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAEF4E152F51F8B800323B0C /* PluginKitMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginKitMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAEF4E1F2F51F8B800323B0C /* PluginKitMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginKitMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEF4E082F51F8B700323B0C /* PluginKit Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PluginKit Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEF4E4A2F5225E000323B0C /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENTS.md; sourceTree = "<group>"; };
 		AAEF4E752F522B6000323B0C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AAEF4E762F522B6000323B0C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -38,34 +19,10 @@
 			path = PluginKitMonitor;
 			sourceTree = "<group>";
 		};
-		AAEF4E182F51F8B800323B0C /* PluginKitMonitorTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PluginKitMonitorTests;
-			sourceTree = "<group>";
-		};
-		AAEF4E222F51F8B800323B0C /* PluginKitMonitorUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PluginKitMonitorUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AAEF4E052F51F8B700323B0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAEF4E122F51F8B800323B0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAEF4E1C2F51F8B800323B0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +39,6 @@
 				AAEF4E752F522B6000323B0C /* LICENSE */,
 				AAEF4E762F522B6000323B0C /* README.md */,
 				AAEF4E0A2F51F8B700323B0C /* PluginKitMonitor */,
-				AAEF4E182F51F8B800323B0C /* PluginKitMonitorTests */,
-				AAEF4E222F51F8B800323B0C /* PluginKitMonitorUITests */,
 				AAEF4E092F51F8B700323B0C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,9 +46,7 @@
 		AAEF4E092F51F8B700323B0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAEF4E082F51F8B700323B0C /* PluginKitMonitor.app */,
-				AAEF4E152F51F8B800323B0C /* PluginKitMonitorTests.xctest */,
-				AAEF4E1F2F51F8B800323B0C /* PluginKitMonitorUITests.xctest */,
+				AAEF4E082F51F8B700323B0C /* PluginKit Monitor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,54 +73,8 @@
 			packageProductDependencies = (
 			);
 			productName = PluginKitMonitor;
-			productReference = AAEF4E082F51F8B700323B0C /* PluginKitMonitor.app */;
+			productReference = AAEF4E082F51F8B700323B0C /* PluginKit Monitor.app */;
 			productType = "com.apple.product-type.application";
-		};
-		AAEF4E142F51F8B800323B0C /* PluginKitMonitorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AAEF4E2C2F51F8B800323B0C /* Build configuration list for PBXNativeTarget "PluginKitMonitorTests" */;
-			buildPhases = (
-				AAEF4E112F51F8B800323B0C /* Sources */,
-				AAEF4E122F51F8B800323B0C /* Frameworks */,
-				AAEF4E132F51F8B800323B0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AAEF4E172F51F8B800323B0C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				AAEF4E182F51F8B800323B0C /* PluginKitMonitorTests */,
-			);
-			name = PluginKitMonitorTests;
-			packageProductDependencies = (
-			);
-			productName = PluginKitMonitorTests;
-			productReference = AAEF4E152F51F8B800323B0C /* PluginKitMonitorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AAEF4E1E2F51F8B800323B0C /* PluginKitMonitorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AAEF4E2F2F51F8B800323B0C /* Build configuration list for PBXNativeTarget "PluginKitMonitorUITests" */;
-			buildPhases = (
-				AAEF4E1B2F51F8B800323B0C /* Sources */,
-				AAEF4E1C2F51F8B800323B0C /* Frameworks */,
-				AAEF4E1D2F51F8B800323B0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AAEF4E212F51F8B800323B0C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				AAEF4E222F51F8B800323B0C /* PluginKitMonitorUITests */,
-			);
-			name = PluginKitMonitorUITests;
-			packageProductDependencies = (
-			);
-			productName = PluginKitMonitorUITests;
-			productReference = AAEF4E1F2F51F8B800323B0C /* PluginKitMonitorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -181,14 +88,6 @@
 				TargetAttributes = {
 					AAEF4E072F51F8B700323B0C = {
 						CreatedOnToolsVersion = 26.3;
-					};
-					AAEF4E142F51F8B800323B0C = {
-						CreatedOnToolsVersion = 26.3;
-						TestTargetID = AAEF4E072F51F8B700323B0C;
-					};
-					AAEF4E1E2F51F8B800323B0C = {
-						CreatedOnToolsVersion = 26.3;
-						TestTargetID = AAEF4E072F51F8B700323B0C;
 					};
 				};
 			};
@@ -207,28 +106,12 @@
 			projectRoot = "";
 			targets = (
 				AAEF4E072F51F8B700323B0C /* PluginKitMonitor */,
-				AAEF4E142F51F8B800323B0C /* PluginKitMonitorTests */,
-				AAEF4E1E2F51F8B800323B0C /* PluginKitMonitorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AAEF4E062F51F8B700323B0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAEF4E132F51F8B800323B0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAEF4E1D2F51F8B800323B0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,34 +128,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAEF4E112F51F8B800323B0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAEF4E1B2F51F8B800323B0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AAEF4E172F51F8B800323B0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AAEF4E072F51F8B700323B0C /* PluginKitMonitor */;
-			targetProxy = AAEF4E162F51F8B800323B0C /* PBXContainerItemProxy */;
-		};
-		AAEF4E212F51F8B800323B0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AAEF4E072F51F8B700323B0C /* PluginKitMonitor */;
-			targetProxy = AAEF4E202F51F8B800323B0C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AAEF4E272F51F8B800323B0C /* Debug */ = {
@@ -310,7 +166,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = NKUJUXUJ3B;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -375,7 +231,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = NKUJUXUJ3B;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -405,7 +261,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NKUJUXUJ3B;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -419,7 +275,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.i2h3.PluginKitMonitor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "PluginKit Monitor";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -438,7 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NKUJUXUJ3B;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -452,7 +308,7 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = de.i2h3.PluginKitMonitor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "PluginKit Monitor";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -460,86 +316,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		AAEF4E2D2F51F8B800323B0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NKUJUXUJ3B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.i2h3.PluginKitMonitorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluginKitMonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PluginKitMonitor";
-			};
-			name = Debug;
-		};
-		AAEF4E2E2F51F8B800323B0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NKUJUXUJ3B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.i2h3.PluginKitMonitorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluginKitMonitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PluginKitMonitor";
-			};
-			name = Release;
-		};
-		AAEF4E302F51F8B800323B0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NKUJUXUJ3B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.i2h3.PluginKitMonitorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = PluginKitMonitor;
-			};
-			name = Debug;
-		};
-		AAEF4E312F51F8B800323B0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NKUJUXUJ3B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.i2h3.PluginKitMonitorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = PluginKitMonitor;
 			};
 			name = Release;
 		};
@@ -560,24 +336,6 @@
 			buildConfigurations = (
 				AAEF4E2A2F51F8B800323B0C /* Debug */,
 				AAEF4E2B2F51F8B800323B0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AAEF4E2C2F51F8B800323B0C /* Build configuration list for PBXNativeTarget "PluginKitMonitorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AAEF4E2D2F51F8B800323B0C /* Debug */,
-				AAEF4E2E2F51F8B800323B0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AAEF4E2F2F51F8B800323B0C /* Build configuration list for PBXNativeTarget "PluginKitMonitorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AAEF4E302F51F8B800323B0C /* Debug */,
-				AAEF4E312F51F8B800323B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

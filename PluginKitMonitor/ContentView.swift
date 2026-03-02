@@ -24,32 +24,33 @@ struct ContentView: View {
             .width(min: 30, ideal: 50, max: 60)
 
             TableColumn("Bundle Identifier", value: \.bundleIdentifier)
+                .width(min: 100, ideal: 400)
 
             TableColumn("Version", value: \.version)
                 .width(min: 50, ideal: 70)
 
             TableColumn("Path", value: \.path)
-                .width(min: 100)
+                .width(min: 100, ideal: 400)
 
             TableColumn("UUID", value: \.uuid)
-                .width(min: 100, ideal: 280)
+                .width(min: 100, ideal: 300)
 
             TableColumn("Timestamp", value: \.timestamp)
                 .width(min: 100, ideal: 180)
 
             TableColumn("SDK", value: \.sdk)
-                .width(min: 100)
+                .width(min: 100, ideal: 200)
 
             TableColumn("Display Name", value: \.displayName)
-                .width(min: 100)
+                .width(min: 100, ideal: 200)
 
             TableColumn("Short Name", value: \.shortName)
-                .width(min: 100)
+                .width(min: 100, ideal: 200)
 
             TableColumn("Parent Name") { plugin in
                 Text(plugin.parentName ?? "")
             }
-            .width(min: 100)
+            .width(min: 100, ideal: 200)
         }
         .searchable(text: $viewModel.searchText, prompt: "Filter plugins")
         .onChange(of: viewModel.sortOrder) {

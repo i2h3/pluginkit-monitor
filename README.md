@@ -1,5 +1,7 @@
 # PluginKit Monitor
 
+<img src="Screenshot.png" alt="Screenshot of PluginKit Monitor" />
+
 A lightweight macOS developer tool that gives you a live, searchable overview of every app extension registered on your system via `pluginkit -mvvvv`.
 
 ## Why?
