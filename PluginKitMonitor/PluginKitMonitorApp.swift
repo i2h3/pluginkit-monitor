@@ -7,9 +7,8 @@ import SwiftUI
 @main
 struct PluginKitMonitorApp: App {
     var body: some Scene {
-        WindowGroup {
+        Window("PluginKit Monitor", id: "main") {
             ContentView()
-                .navigationTitle("PluginKit Monitor")
         }
         .defaultSize(width: 1200, height: 700)
     }
