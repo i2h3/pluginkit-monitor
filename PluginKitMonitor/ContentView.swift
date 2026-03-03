@@ -11,6 +11,9 @@ struct ContentView: View {
     /// The view model that owns the plug-in data and refresh timer.
     @StateObject private var viewModel = PluginKitMonitorViewModel()
 
+    /// The persisted search string restored across launches.
+    @AppStorage("searchText") private var storedSearchText = ""
+
     /// The set of currently selected row identifiers (plug-in UUIDs).
     @State private var selection: Set<PluginInfo.ID> = []
 
@@ -56,7 +59,11 @@ struct ContentView: View {
         .onChange(of: viewModel.sortOrder) {
             viewModel.sort(using: viewModel.sortOrder)
         }
+        .onChange(of: viewModel.searchText) {
+            storedSearchText = viewModel.searchText
+        }
         .onAppear {
+            viewModel.searchText = storedSearchText
             viewModel.startMonitoring()
         }
         .onDisappear {
