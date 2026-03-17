@@ -1,24 +1,83 @@
 {
-  "fill" : {
-    "automatic-gradient" : "srgb:0.72157,0.49412,1.00000,1.00000"
-  },
+  "fill-specializations" : [
+    {
+      "value" : {
+        "automatic-gradient" : "srgb:0.72157,0.49412,1.00000,1.00000"
+      }
+    },
+    {
+      "appearance" : "dark",
+      "value" : {
+        "automatic-gradient" : "extended-gray:0.00000,1.00000"
+      }
+    }
+  ],
   "groups" : [
     {
       "layers" : [
         {
           "blend-mode" : "normal",
-          "fill" : {
-            "automatic-gradient" : "srgb:0.89412,0.87451,0.93725,1.00000"
-          },
+          "fill-specializations" : [
+            {
+              "value" : {
+                "automatic-gradient" : "srgb:0.32370,0.10636,0.57486,1.00000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "automatic-gradient" : "srgb:0.72157,0.49412,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance" : "tinted",
+              "value" : {
+                "solid" : "extended-gray:0.75000,1.00000"
+              }
+            }
+          ],
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "Magnifier 3.svg",
+          "name" : "Magnifier 3",
+          "position" : {
+            "scale" : 1.5,
+            "translation-in-points" : [
+              31.64587400000005,
+              45.14587399999982
+            ]
+          }
+        },
+        {
+          "blend-mode" : "normal",
+          "fill-specializations" : [
+            {
+              "value" : {
+                "automatic-gradient" : "extended-gray:1.00000,1.00000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "automatic-gradient" : "extended-gray:1.00000,1.00000"
+              }
+            },
+            {
+              "appearance" : "tinted",
+              "value" : {
+                "solid" : "extended-gray:1.00000,1.00000"
+              }
+            }
+          ],
           "glass" : true,
           "hidden" : false,
           "image-name" : "Puzzle.png",
           "name" : "Puzzle",
           "position" : {
-            "scale" : 0.5,
+            "scale" : 0.35,
             "translation-in-points" : [
-              52.265625,
-              46.5078125
+              40.32623146874994,
+              25.661863249999783
             ]
           }
         }
@@ -34,9 +93,8 @@
     }
   ],
   "supported-platforms" : {
-    "circles" : [
-      "watchOS"
-    ],
-    "squares" : "shared"
+    "squares" : [
+      "macOS"
+    ]
   }
 }
